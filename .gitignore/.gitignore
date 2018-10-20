@@ -14,3 +14,5 @@ Thumbs.db
 
 # sublime
 sftp-config.json
+
+node_modules/
