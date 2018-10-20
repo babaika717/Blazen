@@ -9,7 +9,7 @@ ehthumbs.db
 Thumbs.db
 *.map
 
-# php storm
+# webstorm
 .idea
 
 # sublime

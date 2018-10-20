@@ -125,7 +125,7 @@ h1, h2, h3, h4, h5, h6 {
         display: inline-block;
         text-transform: uppercase;
         letter-spacing: 0.8px;
-        color: white;
+        color: #fff;
         font-size: 14px;
         font-family: 'Raleway', sans-serif;
         font-weight: 700;
@@ -1194,3 +1194,35 @@ h1, h2, h3, h4, h5, h6 {
     -ms-flex: 66%;
     flex: 66%;
     max-width: 66%; } }
+
+@media screen and (max-width: 1560px) {
+  .arrow .navigate {
+    top: 70%; }
+  .container {
+    width: 80%; }
+  .gallery .opacity .gallery-container {
+    width: 75%; }
+  .collection-container {
+    width: 75%; }
+  .video .video-container {
+    width: 80%; }
+  .events-container {
+    width: 82%; }
+  .footer-container {
+    width: 80%; } }
+
+@media screen and (max-width: 1300px) {
+  .gallery .opacity .gallery-container {
+    width: 90%; }
+  .time {
+    width: 90%; }
+  .collection-container {
+    width: 90%; }
+  .events-container {
+    width: 90%; }
+  .video .video-container {
+    width: 90%; }
+  .footer-container {
+    width: 85%; }
+  .welcome .welcome-container {
+    width: 90%; } }
