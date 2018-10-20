@@ -10,7 +10,7 @@ Thumbs.db
 *.map
 
 # php storm
-.idea/Blazen.iml
+.idea
 
 # sublime
 sftp-config.json
