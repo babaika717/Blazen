@@ -80,10 +80,21 @@ var mainmenu = document.getElementsByClassName('main-menu')[0];
         selector: '.item'
     });
 
+jQuery(document).ready(function () {
+    $(".nav-link").click(function(e) {
+        e.preventDefault();
+        $(".nav-link").removeClass('active');
+        $(this).addClass('active');
+    });
+});
 
-
-
-
+    jQuery(document).ready(function () {
+        $(".nav-link").click(function(e) {
+            e.preventDefault();
+            $("#upcoming-eventlist-1").removeClass('active show');
+            $("#upcoming-eventlist-2").addClass('active show');
+        });
+    });
 
 
 

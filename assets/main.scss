@@ -806,18 +806,21 @@ h1, h2, h3, h4, h5, h6 {
   color: white;
 }
 
+.tab-pane {
+  display: none;
+}
 
 .tab-content > .active {
   display: block;
 }
 
-.fade .show {
-  opacity: 0;
+.fade.show {
+  opacity: 1;
 }
 
 .fade {
-  opacity: 1;
-  transition: opacity .15s linear;
+  opacity: 0;
+  transition: opacity .25s linear;
 }
 
 .events-wrap{
@@ -1235,6 +1238,7 @@ h1, h2, h3, h4, h5, h6 {
     }
   }
 }
+
 
 @media screen and (max-width: 1650px) {
   .events-triggers .right-block {

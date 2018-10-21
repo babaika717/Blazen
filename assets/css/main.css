@@ -768,17 +768,20 @@ h1, h2, h3, h4, h5, h6 {
 .nav-item .active {
   color: white; }
 
+.tab-pane {
+  display: none; }
+
 .tab-content > .active {
   display: block; }
 
-.fade .show {
-  opacity: 0; }
+.fade.show {
+  opacity: 1; }
 
 .fade {
-  opacity: 1;
-  -webkit-transition: opacity .15s linear;
-  -o-transition: opacity .15s linear;
-  transition: opacity .15s linear; }
+  opacity: 0;
+  -webkit-transition: opacity .25s linear;
+  -o-transition: opacity .25s linear;
+  transition: opacity .25s linear; }
 
 .events-wrap {
   margin-top: -20px; }
